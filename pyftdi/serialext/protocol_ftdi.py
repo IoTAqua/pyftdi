@@ -51,7 +51,8 @@ class FtdiSerial(UsbSerial):
              'ft232h': 0x6014,
              'ft2232': 0x6010,
              'ft4232': 0x6011,
-             'ft230x': 0x6015
+             'ft230x': 0x6015,
+             'Amontec JTAGkey': 0xcff8
              }
         }
     DEFAULT_VENDOR = FTDI_VENDOR
