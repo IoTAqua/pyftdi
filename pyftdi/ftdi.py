@@ -84,7 +84,8 @@ class Ftdi:
             ('ft230x', 0x6015),
             ('ft231x', 0x6015),
             ('ft234x', 0x6015),
-            ('ft4232ha', 0x6048)))
+            ('ft4232ha', 0x6048),
+            ('Amontec JTAGkey', 0xcff8)))
         }
     """Supported products, only FTDI officials ones.
        To add third parties and customized products, see
